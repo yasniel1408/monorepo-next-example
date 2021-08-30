@@ -1,0 +1,31 @@
+{
+  "name": "@monorepo-next-example/user-ui",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.3",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "@changesets/cli": "^2.5.0",
+    "@manypkg/cli": "^0.10.0",
+    "@monorepo-next-example/button": "^1.0.0",
+    "@preconstruct/cli": "^1.1.4",
+    "@preconstruct/next": "^1.0.1",
+    "apollo-boost": "^0.4.7",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^25.1.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "graphql": "^14.6.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "jest": "^25.1.0",
+    "next": "^9.3.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
